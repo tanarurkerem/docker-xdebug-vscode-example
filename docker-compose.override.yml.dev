@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  web:
+    ports:
+      - 80:80
+# Settings for XDebug    
+    build: 
+      target: xdebug
+# Settings for Linux
+#    environment:
+#      XDEBUG_CONFIG: "remote_host=172.17.0.1"
